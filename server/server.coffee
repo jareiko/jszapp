@@ -2,7 +2,6 @@ express     = require('express')
 app         = express()
 port        = process.env.PORT or 3000
 sio         = require('socket.io')
-api         = require('./api')
 _           = require('underscore')
 
 
@@ -15,8 +14,6 @@ module.exports.startServer = ->
   app.use '/control', express.static __dirname + "/../control/public"
   app.use '/display', express.static __dirname + "/../display/public"
   app.use '/', express.static(__dirname + "/public")
-
-  api app
 
   io.set 'transports', ['websocket', 'xhr-polling']
   io.set 'log level', 1
