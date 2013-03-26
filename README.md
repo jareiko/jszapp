@@ -13,6 +13,26 @@ There is also `common` code shared between all three.
 
 `server` is a Node.js app. `control` and `display` are built with Brunch and run in the browser.
 
+### Running
+
+You'll need to have node+npm installed.
+
+Start by cloning the repository:
+
+    $ git clone https://github.com/jareiko/jszapp.git
+
+Install dependencies:
+
+    $ npm install
+
+Run the server:
+
+    $ coffee server/server.coffee
+
+Then point your browser to:
+
+    http://localhost:3000/
+
 ### Credits
 
 * Rabbit by [Redshrike](http://opengameart.org/content/bunny-rabbit-lpc-style-for-pixelfarm)
@@ -26,3 +46,5 @@ There is also `common` code shared between all three.
 * [WebGL](http://www.khronos.org/webgl/)
 * [Three.js](http://mrdoob.github.com/three.js/)
 * [Backbone.js](http://backbonejs.org/)
+* [Node.js](http://nodejs.org/)
+* [CoffeeScript](http://coffeescript.org/)
