@@ -25,6 +25,13 @@ Install dependencies:
 
     $ npm install
 
+Build the web apps:
+
+    $ (cd control; brunch build)
+    $ (cd display; brunch build)
+
+If you make changes, you may want to use `brunch watch` instead of `brunch build`.
+
 Run the server:
 
     $ coffee server/server.coffee
