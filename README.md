@@ -3,7 +3,7 @@
 
 ## Audience Participation Platformer
 
-## JSZurich presentation on 2013-03-26
+JSZurich presentation on 2013-03-26.
 
 ### Structure
 
