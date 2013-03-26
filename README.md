@@ -15,7 +15,9 @@ There is also `common` code shared between all three.
 
 ### Running
 
-You'll need to have node+npm installed.
+You'll need to have Node.js installed. You'll also need CoffeeScript:
+
+    $ npm install -g coffee-script
 
 Start by cloning the repository:
 
